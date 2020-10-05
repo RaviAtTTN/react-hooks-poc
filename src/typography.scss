@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Times New Roman';
+  src: local('TimesNewRoman400'), url(./fonts/TimesNewRoman400.ttf) format('ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: local('TimesNewRomanGras700'), url(./fonts/TimesNewRomanGras700.ttf) format('ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: local('TimesNewRomanItalique400'), url(./fonts/TimesNewRomanItalique400.ttf) format('ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lucida Grande';
+  src: local('LucidaGrande'), url(./fonts/LucidaGrande.ttf) format('ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lucida Grande';
+  src: local('LucidaGrandeBold'), url(./fonts/LucidaGrandeBold.ttf) format('ttf');
+  font-weight: bold;
+}
+

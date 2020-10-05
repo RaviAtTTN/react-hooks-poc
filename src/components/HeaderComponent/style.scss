@@ -1,0 +1,30 @@
+@import "./src/constants.scss";
+
+header {
+  padding: 20px 94px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  & > .logo-wrapper {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        padding: 4px;
+        margin: 0 10px;
+        cursor: pointer;
+      }
+    }
+  }
+}

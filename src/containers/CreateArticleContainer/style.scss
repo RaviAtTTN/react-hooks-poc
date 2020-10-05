@@ -1,0 +1,23 @@
+.write-art-container {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & > .custom-card {
+    max-width: 80%;
+
+    label {
+      margin-top: 1rem;
+    }
+
+    input {
+      margin-bottom: 0;
+    }
+
+    .submit-btn {
+      margin-top: 20px;
+      background-color: #0F0;
+      font-weight: bold;
+    }
+  }
+}

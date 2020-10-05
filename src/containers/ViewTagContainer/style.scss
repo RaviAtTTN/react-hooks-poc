@@ -1,0 +1,25 @@
+@import "src/constants.scss";
+.view-tag-container {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  & > .custom-card {
+    max-width: unset;
+    width: 30%;
+    & > .title {
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 140%;
+    }
+    & > .btn {
+      margin-top: 1rem;
+      padding: 6px;
+      border: 1px solid $darkSlateGrey;
+      background-color: $darkSlateGrey;
+      color: $whitesmoke;
+      border-radius: 4px;
+      width: fit-content;
+    }
+  }
+}
